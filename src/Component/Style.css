@@ -1,0 +1,29 @@
+
+.btn{
+    margin-left: -2.5rem;
+    cursor: pointer;
+    pointer-events: auto;
+    z-index: 10;
+    background-color: #fff;
+    background-image: none;
+    color: #000;
+    -webkit-transition: color 0.15s linear;
+    transition: color 0.15s linear;
+    font-size: 1rem;
+   align-items: center;
+    
+  } 
+ .items{
+    width: 370px;
+ }
+.clear:hover{
+    background-color: black;
+    color: white;
+  
+}
+.clear:hover::after{
+    background-color: black;
+    color: white;
+  content: " REMOVE";
+ 
+}
